@@ -115,7 +115,7 @@ fitbuddy-agent/
 
 ## **1. Clone repo**
 ```bash
-git clone <your repo url>
+git clone (https://github.com/agarwaldivyanshh/fitbuddy-agent.git)
 cd fitbuddy-agent
 ```
 
