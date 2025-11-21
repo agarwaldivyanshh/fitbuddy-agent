@@ -1,0 +1,9 @@
+flowchart LR
+  U[User] --> IA[IntakeAgent]
+  IA --> RAG[RAGAgent]
+  IA --> PA[PlannerAgent]
+  RAG --> PA
+  PA --> Exporter[Exporter (PDF/JSON)]
+  U --> TA[TrackerAgent]
+  TA --> PA
+  Exporter --> U
