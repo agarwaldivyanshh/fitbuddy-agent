@@ -12,9 +12,9 @@ Usage:
 
 from pathlib import Path
 from typing import List, Dict
-from ..services.exercise_db import load_exercises
-from ..services.nutrition_db import load_nutrition
-from ..services.vectorstore import SimpleVectorStore
+from services.exercise_db import load_exercises
+from services.nutrition_db import load_nutrition
+from services.vectorstore import SimpleVectorStore
 
 def _make_documents():
     """
