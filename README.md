@@ -213,7 +213,7 @@ Deploy easily on **Streamlit Cloud**:
 
 After deployment, add URL here:
 
-**Live Demo:** _<add URL here after deploying>_
+**Live Demo:** _https://fitbuddy-agent.streamlit.app/
 
 ---
 
