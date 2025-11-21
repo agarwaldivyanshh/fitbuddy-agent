@@ -21,8 +21,8 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 LAST_PLAN = DATA_DIR / "last_plan.json"
 
 # local imports (these modules we added earlier)
-from ..services.exercise_db import load_exercises
-from ..services.nutrition_db import load_nutrition
+from services.exercise_db import load_exercises
+from services.nutrition_db import load_nutrition
 
 # For reproducible sampling during tests/dev
 seed(42)
