@@ -1,4 +1,3 @@
-cat > src/services/exercise_db.py <<'PY'
 """
 Exercise Database Loader
 
@@ -34,4 +33,3 @@ def load_exercises():
     """Loads exercise CSV into a DataFrame."""
     ensure_sample_exercises()
     return pd.read_csv(EX_CSV)
-PY
