@@ -24,7 +24,12 @@ FitBuddy solves this with:
 - **Streamlit UI demo** for judges to run easily  
 
 ---
+# ☁️ Deployment
 
+
+**Live Demo:** _https://fitbuddy-agent.streamlit.app/
+
+---
 # 🧠 Architecture Overview
 
 FitBuddy is a **multi-agent system** built around distinct responsibilities:
@@ -201,21 +206,7 @@ pytest
 
 ---
 
-# ☁️ Deployment (Streamlit Cloud)
 
-Deploy easily on **Streamlit Cloud**:
-
-1. https://streamlit.io/cloud → Login with GitHub  
-2. New App → Select repo  
-3. Branch: `main`  
-4. File path: `src/app.py`  
-5. Deploy  
-
-After deployment, add URL here:
-
-**Live Demo:** _https://fitbuddy-agent.streamlit.app/
-
----
 
 # 🧪 Tests
 
